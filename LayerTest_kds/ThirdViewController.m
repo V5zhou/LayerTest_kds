@@ -37,9 +37,9 @@
     [shapeLayer setBounds:CGRectMake(0, 0, SCREENWIDTH/2, SCREENWIDTH/2)];
     [shapeLayer setPosition:CGPointMake(SCREENWIDTH/4, SCREENWIDTH/4)];
     [shapeLayer setPath:path];
-    shapeLayer.shadowColor = [[UIColor greenColor] CGColor];
-    shapeLayer.shadowOffset = CGSizeMake(4, 4);
-    shapeLayer.shadowOpacity = 0.5;
+    shapeLayer.shadowOffset = CGSizeMake(8, 8);
+    shapeLayer.shadowRadius = 10;
+    shapeLayer.shadowOpacity = 0.7;
     
     [layer2 setMask:shapeLayer];
     
@@ -55,7 +55,7 @@
         layer1.backgroundColor = [[UIColor whiteColor] CGColor];
     }
     else if (layer == layer2) {
-        UIImage *image = [UIImage imageNamed:@"小妞.jpg"];
+        UIImage *image = [UIImage imageNamed:@"3.jpg"];
         [image drawInRect:layer.bounds];
     }
     UIGraphicsPopContext();

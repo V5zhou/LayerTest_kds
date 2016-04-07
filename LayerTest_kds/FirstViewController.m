@@ -70,11 +70,13 @@
             CAShapeLayer *shape = [[CAShapeLayer alloc] init];
             [shape setBounds:tempRect];
             [shape setPosition:center];
-            shape.fillColor = [[UIColor whiteColor] CGColor];
+            shape.fillColor = [[UIColor lightGrayColor] CGColor];
             shape.strokeColor = [[UIColor greenColor] CGColor];
-            shape.lineWidth = 1;
+            shape.lineWidth = 3;
             shape.shouldRasterize = YES;
             shape.path = path.CGPath;
+            NSArray *dashArray = @[[NSNumber numberWithFloat:20],[NSNumber numberWithFloat:20]];
+            [shape setLineDashPattern:dashArray];
             
             CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:NSStringFromSelector(@selector(strokeEnd))];
             animation.fromValue = @0;

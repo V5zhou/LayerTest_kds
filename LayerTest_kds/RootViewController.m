@@ -10,6 +10,8 @@
 #import "FirstViewController.h"
 #import "SecondContentsViewController.h"
 #import "ThirdViewController.h"
+#import "ColorGetViewController.h"
+#import "GradientColorViewController.h"
 
 @interface RootViewController () <UITableViewDataSource, UITableViewDelegate> {
     NSArray *Array;
@@ -27,7 +29,7 @@
     tab.dataSource = self;
     [self.view addSubview:tab];
     
-    Array = @[@"遮罩",@"动态绘图",@"小妞图片圆角"];
+    Array = @[@"遮罩",@"动态绘图",@"图片圆角",@"取色板",@"颜色渐变"];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -47,6 +49,18 @@
         case 2:
         {
             [self.navigationController pushViewController:[[ThirdViewController alloc] init] animated:YES];
+        }
+            break;
+            
+        case 3:
+        {
+            [self.navigationController pushViewController:[[ColorGetViewController alloc] init] animated:YES];
+        }
+            break;
+            
+        case 4:
+        {
+            [self.navigationController pushViewController:[[GradientColorViewController alloc] init] animated:YES];
         }
             break;
             

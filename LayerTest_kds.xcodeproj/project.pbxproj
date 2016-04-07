@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1F6E9E1BA8103D002A6F09 /* ColorGetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1F6E9D1BA8103D002A6F09 /* ColorGetViewController.m */; };
+		FC1F6EA01BA81188002A6F09 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1F6E9F1BA81188002A6F09 /* 3.jpg */; };
+		FC205F981BA904DF005CCBD1 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC205F971BA904DF005CCBD1 /* 4.jpg */; };
+		FC205F9B1BA91166005CCBD1 /* GradientColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC205F9A1BA91166005CCBD1 /* GradientColorViewController.m */; };
 		FC4C27B81B05948B00051CE1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C27B71B05948B00051CE1 /* ThirdViewController.m */; };
-		FC4C27BA1B0599D400051CE1 /* 小妞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC4C27B91B0599D400051CE1 /* 小妞.jpg */; };
+		FC74F7821BC66647006D492D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74F7811BC66647006D492D /* Launch Screen.xib */; };
 		FC8C5EB51B009D5C00903669 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC8C5EB41B009D5C00903669 /* 1.jpg */; };
-		FC93CEA41B02DE06008CE2EA /* TwoColorText.m in Sources */ = {isa = PBXBuildFile; fileRef = FC93CEA31B02DE06008CE2EA /* TwoColorText.m */; };
 		FC93CEA71B02DE54008CE2EA /* SecondContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC93CEA61B02DE54008CE2EA /* SecondContentsViewController.m */; };
 		FCDBABCF1AFB998E009C18AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDBABCE1AFB998E009C18AC /* Foundation.framework */; };
 		FCDBABD11AFB998E009C18AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDBABD01AFB998E009C18AC /* CoreGraphics.framework */; };
@@ -18,7 +21,6 @@
 		FCDBABD91AFB998E009C18AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCDBABD71AFB998E009C18AC /* InfoPlist.strings */; };
 		FCDBABDB1AFB998E009C18AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDBABDA1AFB998E009C18AC /* main.m */; };
 		FCDBABDF1AFB998E009C18AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDBABDE1AFB998E009C18AC /* AppDelegate.m */; };
-		FCDBABE11AFB998E009C18AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDBABE01AFB998E009C18AC /* Images.xcassets */; };
 		FCDBABE81AFB998E009C18AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDBABE71AFB998E009C18AC /* XCTest.framework */; };
 		FCDBABE91AFB998E009C18AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDBABCE1AFB998E009C18AC /* Foundation.framework */; };
 		FCDBABEA1AFB998E009C18AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDBABD21AFB998E009C18AC /* UIKit.framework */; };
@@ -42,12 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1F6E9C1BA8103D002A6F09 /* ColorGetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGetViewController.h; sourceTree = "<group>"; };
+		FC1F6E9D1BA8103D002A6F09 /* ColorGetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGetViewController.m; sourceTree = "<group>"; };
+		FC1F6E9F1BA81188002A6F09 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FC205F971BA904DF005CCBD1 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		FC205F991BA91166005CCBD1 /* GradientColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientColorViewController.h; sourceTree = "<group>"; };
+		FC205F9A1BA91166005CCBD1 /* GradientColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientColorViewController.m; sourceTree = "<group>"; };
 		FC4C27B61B05948B00051CE1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		FC4C27B71B05948B00051CE1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		FC4C27B91B0599D400051CE1 /* 小妞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小妞.jpg"; sourceTree = "<group>"; };
+		FC74F7811BC66647006D492D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		FC8C5EB41B009D5C00903669 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		FC93CEA21B02DE06008CE2EA /* TwoColorText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoColorText.h; sourceTree = "<group>"; };
-		FC93CEA31B02DE06008CE2EA /* TwoColorText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoColorText.m; sourceTree = "<group>"; };
 		FC93CEA51B02DE54008CE2EA /* SecondContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondContentsViewController.h; sourceTree = "<group>"; };
 		FC93CEA61B02DE54008CE2EA /* SecondContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondContentsViewController.m; sourceTree = "<group>"; };
 		FCDBABCB1AFB998E009C18AC /* LayerTest_kds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerTest_kds.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +66,6 @@
 		FCDBABDC1AFB998E009C18AC /* LayerTest_kds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayerTest_kds-Prefix.pch"; sourceTree = "<group>"; };
 		FCDBABDD1AFB998E009C18AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCDBABDE1AFB998E009C18AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCDBABE01AFB998E009C18AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCDBABE61AFB998E009C18AC /* LayerTest_kdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayerTest_kdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDBABE71AFB998E009C18AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FCDBABEF1AFB998E009C18AC /* LayerTest_kdsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LayerTest_kdsTests-Info.plist"; sourceTree = "<group>"; };
@@ -134,7 +139,8 @@
 			children = (
 				FC8C5EB41B009D5C00903669 /* 1.jpg */,
 				FCF9BA791AFC9CAD00283490 /* 2.png */,
-				FC4C27B91B0599D400051CE1 /* 小妞.jpg */,
+				FC1F6E9F1BA81188002A6F09 /* 3.jpg */,
+				FC205F971BA904DF005CCBD1 /* 4.jpg */,
 				FCDBABDD1AFB998E009C18AC /* AppDelegate.h */,
 				FCDBABDE1AFB998E009C18AC /* AppDelegate.m */,
 				FCDBAC021AFB9B70009C18AC /* RootViewController.h */,
@@ -147,9 +153,10 @@
 				FC93CEA61B02DE54008CE2EA /* SecondContentsViewController.m */,
 				FC4C27B61B05948B00051CE1 /* ThirdViewController.h */,
 				FC4C27B71B05948B00051CE1 /* ThirdViewController.m */,
-				FC93CEA21B02DE06008CE2EA /* TwoColorText.h */,
-				FC93CEA31B02DE06008CE2EA /* TwoColorText.m */,
-				FCDBABE01AFB998E009C18AC /* Images.xcassets */,
+				FC1F6E9C1BA8103D002A6F09 /* ColorGetViewController.h */,
+				FC1F6E9D1BA8103D002A6F09 /* ColorGetViewController.m */,
+				FC205F991BA91166005CCBD1 /* GradientColorViewController.h */,
+				FC205F9A1BA91166005CCBD1 /* GradientColorViewController.m */,
 				FCDBABD51AFB998E009C18AC /* Supporting Files */,
 			);
 			path = LayerTest_kds;
@@ -160,6 +167,7 @@
 			children = (
 				FCDBABD61AFB998E009C18AC /* LayerTest_kds-Info.plist */,
 				FCDBABD71AFB998E009C18AC /* InfoPlist.strings */,
+				FC74F7811BC66647006D492D /* Launch Screen.xib */,
 				FCDBABDA1AFB998E009C18AC /* main.m */,
 				FCDBABDC1AFB998E009C18AC /* LayerTest_kds-Prefix.pch */,
 			);
@@ -260,12 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDBABD91AFB998E009C18AC /* InfoPlist.strings in Resources */,
-				FC4C27BA1B0599D400051CE1 /* 小妞.jpg in Resources */,
 				FCF9BA7A1AFC9CAD00283490 /* 2.png in Resources */,
-				FCDBABE11AFB998E009C18AC /* Images.xcassets in Resources */,
 				FCDBAC061AFB9BCF009C18AC /* RootViewController.xib in Resources */,
 				FCDBAC0B1AFB9CE3009C18AC /* FirstViewController.xib in Resources */,
 				FC8C5EB51B009D5C00903669 /* 1.jpg in Resources */,
+				FC205F981BA904DF005CCBD1 /* 4.jpg in Resources */,
+				FC74F7821BC66647006D492D /* Launch Screen.xib in Resources */,
+				FC1F6EA01BA81188002A6F09 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDBABDF1AFB998E009C18AC /* AppDelegate.m in Sources */,
+				FC1F6E9E1BA8103D002A6F09 /* ColorGetViewController.m in Sources */,
 				FC93CEA71B02DE54008CE2EA /* SecondContentsViewController.m in Sources */,
-				FC93CEA41B02DE06008CE2EA /* TwoColorText.m in Sources */,
 				FCDBABDB1AFB998E009C18AC /* main.m in Sources */,
 				FCDBAC041AFB9B70009C18AC /* RootViewController.m in Sources */,
 				FCDBAC0A1AFB9CE3009C18AC /* FirstViewController.m in Sources */,
+				FC205F9B1BA91166005CCBD1 /* GradientColorViewController.m in Sources */,
 				FC4C27B81B05948B00051CE1 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,8 +415,6 @@
 		FCDBABF81AFB998E009C18AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LayerTest_kds/LayerTest_kds-Prefix.pch";
 				INFOPLIST_FILE = "LayerTest_kds/LayerTest_kds-Info.plist";
@@ -418,8 +426,6 @@
 		FCDBABF91AFB998E009C18AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LayerTest_kds/LayerTest_kds-Prefix.pch";
 				INFOPLIST_FILE = "LayerTest_kds/LayerTest_kds-Info.plist";

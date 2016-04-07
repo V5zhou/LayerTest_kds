@@ -15,5 +15,5 @@
     #import <Foundation/Foundation.h>
 #endif
 
-#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENWIDTH    [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT   [UIScreen mainScreen].bounds.size.height
